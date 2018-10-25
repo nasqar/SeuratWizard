@@ -6,5 +6,3 @@ devtools::load_all()
 ip = '0.0.0.0'
 portNumber = 5555
 SeuratWizard(ip,portNumber)
-
-
