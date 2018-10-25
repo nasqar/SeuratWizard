@@ -4,14 +4,14 @@
 ## Install:
 
 ```
-devtools::install_github("aymanm/seuratOnline")
+devtools::install_github("nasqar/SeuratWizard")
 ```
 
 ## Run:
 
 ```
-library(seuratOnline)
-seuratOnline()
+library(SeuratWizard)
+SeuratWizard()
 ```
 This will run on http://0.0.0.0:1234/ by default
 
@@ -22,7 +22,7 @@ To run on specific ip/port:
 ```
 ip = '127.0.0.1'
 portNumber = 5555
-seuratOnline(ip,portNumber)
+SeuratWizard(ip,portNumber)
 ```
 This will run on http://127.0.0.1:5555/
 
