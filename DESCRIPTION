@@ -1,4 +1,4 @@
-Package: seuratOnline
+Package: SeuratWizard
 Title: User Interface to Seurat (Single Cell) in R Shiny
 Version: 0.0.0.9000
 Authors@R: person("Ayman", "Yousif", email = "ay21@nyu.edu", role = c("aut", "cre"))

@@ -11,7 +11,7 @@ version: "3"
 
 
 services:
-  seurat_online:
+  seurat_wizard:
     ## For this configuration we build from the local setup
     ## But for docker-swarm we will have to have an actual image
     build: .
