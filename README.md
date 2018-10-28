@@ -1,4 +1,4 @@
-# seuratOnline: R Shiny interface for Seurat single-cell analysis library
+# SeuratWizard: R Shiny interface for Seurat single-cell analysis library
 
 
 ## Install:
