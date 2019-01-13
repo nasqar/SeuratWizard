@@ -1,7 +1,9 @@
 # SeuratWizard: R Shiny interface for Seurat single-cell analysis library
 
+## Online/Demo:
+You can try it online at http://nasqar.abudhabi.nyu.edu/SeuratWizard
 
-## Install:
+## Local Install:
 
 ```
 devtools::install_github("nasqar/SeuratWizard")
