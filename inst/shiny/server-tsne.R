@@ -14,7 +14,7 @@ tsneReactive <-
 
       shiny::setProgress(value = 0.4, detail = "Running TSNE Reduction ...")
 
-      pbmc <- RunTSNE(object = pbmc, dims.use = input$tsnePCDim1:input$tsnePCDim2, do.fast = TRUE)
+      pbmc <- RunTSNE(object = pbmc, dims.use = input$tsnePCDim1:input$tsnePCDim2, do.fast = TRUE, perplexity = input$tsnePerplexity, num_threads = parallel::detectCores()/2)
 
       updateSelectizeInput(session,'clusterNumCells',
                            choices=levels(pbmc@ident), selected=NULL)
