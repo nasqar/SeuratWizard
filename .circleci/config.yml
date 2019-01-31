@@ -1,0 +1,12 @@
+version: 2
+
+executors:
+  machine:
+      machine: true
+
+jobs:
+  build:
+    executor: machine
+    steps:
+      - checkout
+      - run: bash ./build.sh
