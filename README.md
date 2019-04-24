@@ -7,6 +7,14 @@
 ## Online/Demo:
 You can try it online at http://nasqar.abudhabi.nyu.edu/SeuratWizard
 
+## Run using docker (Recommended):
+
+```
+docker run -p 80:80 aymanm/seuratwizard
+```
+This will run on port 80
+***
+
 ## Local Install:
 
 ```
@@ -20,14 +28,6 @@ library(SeuratWizard)
 SeuratWizard()
 ```
 This will run on http://0.0.0.0:1234/ by default
-
-## Run using docker:
-
-```
-docker run -p 80:80 aymanm/seuratwizard
-```
-This will run on port 80
-***
 
 To run on specific ip/port:
 
