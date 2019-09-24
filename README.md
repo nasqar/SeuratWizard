@@ -1,6 +1,6 @@
 
 
-![#1589F0](https://placehold.it/15/1589F0/000000?text=+) `For Seurat v3 (alpha) see ` <a href="https://github.com/nasqar/seuratv3wizard">SeuratV3Wizard</a>
+![#1589F0](https://placehold.it/15/1589F0/000000?text=+) `This version is no longer supported. See ` <a href="https://github.com/nasqar/seuratv3wizard">SeuratV3Wizard</a> `for the new version`
 
 # SeuratWizard: R Shiny interface for Seurat single-cell analysis library
 
